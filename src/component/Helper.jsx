@@ -5,7 +5,7 @@ import TeamMember3 from "../assets/PNG/TeamMember3.png";
 import TeamMember4 from "../assets/PNG/TeamMember4.png";
 import TeamMember5 from "../assets/PNG/TeamMember5.png";
 import TeamMember6 from "../assets/PNG/TeamMember6.png";
-import TeamMember8 from "../assets/PNG/TeamMember8.jpeg";
+import TeamMember8 from "../assets/PNG/teamMember8.jpeg";
 import integrity from "../assets/SVG/integrity.svg"
 import Collboration from "../assets/SVG/Collboration.svg"
 import likeicon from "../assets/SVG/likeicon.svg"
