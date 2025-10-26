@@ -3,6 +3,10 @@
 import Header from "../component/Header";
 import LightGreen from "../assets/PNG/lightGreenDesign.png";
 import Suse from "../assets/PNG/Suse.png";
+import percona from "../assets/PNG/percona.png";
+import HPE from "../assets/PNG/HPE.png";
+import Fortinet from "../assets/PNG/Fornite.png";
+import EDB from "../assets/PNG/EDB.png";
 import Veeam from "../assets/PNG/Veeam.png";
 import Redhat from "../assets/PNG/Redhat.png";
 import Paloalto from "../assets/PNG/Paloalto.png";
@@ -122,22 +126,12 @@ function OurService() {
             <div className="flex gap-[50px] mt-[50px] animate-scroll">
               <img
                 className="w-[40%] lg:w-full"
-                src={Redhat}
+                src={EDB}
                 alt="image of company tag"
               />
               <img
                 className="w-[40%] lg:w-full"
-                src={Suse}
-                alt="image of company tag"
-              />
-              <img
-                className="w-[40%] lg:w-full"
-                src={Veeam}
-                alt="image of company tag"
-              />
-              <img
-                className="w-[40%] lg:w-full"
-                src={Paloalto}
+                src={percona}
                 alt="image of company tag"
               />
               <img
@@ -150,11 +144,24 @@ function OurService() {
                 src={Suse}
                 alt="image of company tag"
               />
+
+              <img
+                className="w-[40%] lg:w-full"
+                src={Paloalto}
+                alt="image of company tag"
+              />
               <img
                 className="w-[40%] lg:w-full"
                 src={Veeam}
                 alt="image of company tag"
               />
+
+              <img
+                className="w-[40%] lg:w-full"
+                src={Fortinet}
+                alt="image of company tag"
+              />
+
               <img
                 className="w-[40%] lg:w-full"
                 src={Paloalto}
@@ -167,17 +174,7 @@ function OurService() {
               />
               <img
                 className="w-[40%] lg:w-full"
-                src={Suse}
-                alt="image of company tag"
-              />
-              <img
-                className="w-[40%] lg:w-full"
-                src={Veeam}
-                alt="image of company tag"
-              />
-              <img
-                className="w-[40%] lg:w-full"
-                src={Paloalto}
+                src={HPE}
                 alt="image of company tag"
               />
             </div>

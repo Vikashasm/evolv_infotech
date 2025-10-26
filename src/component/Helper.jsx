@@ -1,19 +1,20 @@
 // import { Title } from "@mui/icons-material";
-import TeamMember1 from "../assets/PNG/teamMember1.png";
+import TeamMember1 from "../assets/PNG/userImage.png";
 import TeamMember2 from "../assets/PNG/teamMember2.png";
 import TeamMember3 from "../assets/PNG/TeamMember3.png";
 import TeamMember4 from "../assets/PNG/TeamMember4.png";
 import TeamMember5 from "../assets/PNG/TeamMember5.png";
 import TeamMember6 from "../assets/PNG/TeamMember6.png";
+import TeamMember8 from "../assets/PNG/TeamMember8.jpeg";
 import integrity from "../assets/SVG/integrity.svg"
 import Collboration from "../assets/SVG/Collboration.svg"
 import likeicon from "../assets/SVG/likeicon.svg"
 import innovation from "../assets/SVG/innovation.svg"
 export const teamMember = [
   {
-    image: TeamMember1,
-    name: "Rakhi Bahri",
-    post: "Sales Manager",
+    image: TeamMember8,
+    name: "Vishesh Bhat",
+    post: "CTO",
     discription:
       "Alex shares insights on mental health through engaging articles and personal stories.",
   },
@@ -52,7 +53,13 @@ export const teamMember = [
     discription:
       "Jamie fosters a supportive environment for our readers and encourages open discussions.",
   },
-
+  {
+    image: TeamMember1,
+    name: "Reetu Rajput",
+    post: "Sales Manager",
+    discription:
+      "Alex shares insights on mental health through engaging articles and personal stories.",
+  },
 ];
 export const cyberSafe = [
   {

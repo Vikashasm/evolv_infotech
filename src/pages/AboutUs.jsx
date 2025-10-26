@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../component/Header";
 import TickIcon from "../assets/SVG/tickIcon.svg";
-import CyberMan from "../assets/PNG/Anant_Berry.jpeg";
+import CyberMan from "../assets/PNG/teamMember7.jpeg";
 import Dots from "../assets/PNG/dots.png";
 import YellowBubble from "../assets/PNG/header_bubble_yellow.png";
 import BlueBubble from "../assets/PNG/header_blue_bubble.png";
@@ -67,7 +67,11 @@ function AboutUs() {
   return (
     <>
       {/* ----------about us ------------------ */}
-      <Header title={"About Us"} about={"Your Trusted Partner"} span="in Cybersecurity" />
+      <Header
+        title={"About Us"}
+        about={"Your Trusted Partner"}
+        span="in Cybersecurity"
+      />
       {/* ----------why choose us----------------- */}
       <div className="relative overflow-hidden">
         <img
@@ -82,7 +86,7 @@ function AboutUs() {
                 Why Choose Us
               </h6>
               <h1 className="font_outfit font-medium text-lg lg:text-5xl mt-3 lg:mt-4 xl:mt-6 text-black  lg:leading-[60px]">
-                Our Partner in Proactive Cyber Defense
+                Transforming ideas into technology that evolves with you
               </h1>
 
               {/* <p className="font-normal font_outfit text-sm lg:text-xl text-black mt-3 lg:mt-4 xl:mt-[50px]">
@@ -91,45 +95,52 @@ function AboutUs() {
                 operations to achieve your business goals.
               </p> */}
 
-
               <div className="flex flex-col gap-7 justify-between">
                 <div className="flex items-start gap-x-2.5 w-full mt-[30px]">
-
                   <img src={TickIcon} alt="image" />
 
                   <p className="font_outfit font-normal text-sm lg:text-xl text-black/60 ">
-                    <span className="text-black text-[20px]">Tailored Solutions:</span> We don’t believe in one-size-fits-all. Every integration solution we deliver is customized to meet the specific needs of your business.
-
+                    <span className="text-black text-[20px]">
+                      Tailored Solutions:
+                    </span>{" "}
+                    We don’t believe in one-size-fits-all. Every integration
+                    solution we deliver is customized to meet the specific needs
+                    of your business.
                   </p>
                 </div>
                 <div className="flex items-start gap-x-2.5 w-full ">
-
                   <img src={TickIcon} alt="image" />
 
                   <p className="font_outfit font-normal text-sm lg:text-xl text-black/60 ">
-                    <span className="text-black text-[20px]">Expertise Across Technologies:</span>  With experience in a wide range of technologies, we bring deep knowledge and a holistic approach to every project.
-
+                    <span className="text-black text-[20px]">
+                      Expertise Across Technologies:
+                    </span>{" "}
+                    With experience in a wide range of technologies, we bring
+                    deep knowledge and a holistic approach to every project.
                   </p>
                 </div>
                 <div className="flex items-start gap-x-2.5 w-full ">
-
                   <img src={TickIcon} alt="image" />
 
                   <p className="font_outfit font-normal text-sm lg:text-xl text-black/60 ">
-                    <span className="text-black text-[20px]">Seamless Implementation:</span> We prioritize minimal disruption to your operations, ensuring smooth deployments and efficient system integration.
-
-
+                    <span className="text-black text-[20px]">
+                      Seamless Implementation:
+                    </span>{" "}
+                    We prioritize minimal disruption to your operations,
+                    ensuring smooth deployments and efficient system
+                    integration.
                   </p>
                 </div>
                 <div className="flex items-start gap-x-2.5 w-full ">
-
                   <img src={TickIcon} alt="image" />
 
                   <p className="font_outfit font-normal text-sm lg:text-xl text-black/60 ">
-                    <span className="text-black text-[20px]">Long-term Partnership:</span> We’re not just your service provider—we aim to be your trusted partner for the long haul, helping you adapt to evolving technologies and business demands.
-
-
-
+                    <span className="text-black text-[20px]">
+                      Long-term Partnership:
+                    </span>{" "}
+                    We’re not just your service provider—we aim to be your
+                    trusted partner for the long haul, helping you adapt to
+                    evolving technologies and business demands.
                   </p>
                 </div>
               </div>
@@ -144,7 +155,7 @@ function AboutUs() {
                     Director
                   </p>
                   <p className="font_pinyon text-base sm:text-[30px] mt-3 font-normal text-black">
-                    Anant Berry
+                    Nilesh Soni
                   </p>
                 </div>
               </div>
@@ -173,8 +184,6 @@ function AboutUs() {
         </div>
       </div>
       {/* ------------our team member--------------- */}
-
-
 
       <div className="relative overflow-hidden hidden md:block">
         <img
@@ -206,7 +215,7 @@ function AboutUs() {
                 >
                   <div className="px-3">
                     <img
-                      className="w-full"
+                      className="w-[300px] h-[300px] rounded-xl"
                       src={item.image}
                       alt="image of team member"
                     />
@@ -259,7 +268,6 @@ function AboutUs() {
             alt="image for design"
           />
 
-
           <Slider {...settings}>
             {teamMember.map((item, index) => {
               return (
@@ -277,11 +285,11 @@ function AboutUs() {
                       <h1 className="font_outfit font-semibold text-base lg:text-xl text-center mt-3 lg:mt-[30px]">
                         {item.name}
                       </h1>
-                      <p className="font_outfit max-w-[290px] md:w-xfull mx-auto font-normal text-sm xl:text-base mt-3 lg:mt-[30px] text-center px-2 sm:px-3 md:px-0 xl:px-2">
-                        {item.discription}
+                      <p className="font_outfit  text-[grey] lg:text-[16px] text-center mt-2 ">
+                        {item.post}
                       </p>
                     </div>
-                    <div className="flex items-center justify-center gap-[14px] mt-3 lg:mt-[30px]">
+                    {/* <div className="flex items-center justify-center gap-[14px] mt-3 lg:mt-[30px]">
                       <button>
                         <img src={LinkedIn} alt="linkedin icon" />
                       </button>
@@ -291,14 +299,12 @@ function AboutUs() {
                       <button>
                         <img src={Dribble} alt="icon" />
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               );
             })}
           </Slider>
-
-
         </div>
       </div>
       {/* -----------------what our clients saya------------- */}
