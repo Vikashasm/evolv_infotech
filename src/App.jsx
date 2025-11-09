@@ -12,6 +12,10 @@ import GetInTouch from "./pages/GetInTouch";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import OurSolutions from "./pages/OurSolutions";
+import Infrastructure from "./pages/Infrastructure";
+import SoftwareLicensing from "./pages/SoftwareLicensing";
+import Network from "./pages/Network";
+import Security from "./pages/Security";
 
 function App() {
   
@@ -22,7 +26,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutUs" element={<AboutUs />} />
-          <Route path="/ourService" element={<OurService />} />
+          <Route path="ourService" element={<OurService />} >
+            <Route path="infrastructure" element={<Infrastructure />} />
+            <Route path="software-licensing" element={<SoftwareLicensing />} />
+            <Route path="network" element={<Network />} />
+            <Route path="security" element={<Security />} />
+          
+          </Route>
           <Route path="/ourSolutions" element={<OurSolutions/>} />
           <Route path="/clints" element={<Clints />} />
           <Route path="/testimonials" element={<Testimonials />} />
