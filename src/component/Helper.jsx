@@ -167,7 +167,7 @@ export const infraData = [
     icon: <FiUser className="text-white text-[22px]" />, // vc_li-user alternative
     title: "Enterprise Mobility Solutions",
     desc:
-      "Optimize your operational efficiency with robust enterprise mobility solutions. Give your workforce uninterrupted mobility."
+      "Optimize your operational efficiency with robust enterprise mobility solutions. Give your workforce the mobility they require to perform their daily tasks on the go uninterruptedly."
   },
   {
     icon: <IoSpeedometerOutline className="text-white text-[22px]" />,

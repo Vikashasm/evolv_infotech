@@ -13,9 +13,8 @@ const InfrastructureCard = ({ mapData }) => {
 
 
                 <div>
-                    <h2 className="font-semibold text-lg md:text-xl">Data Center Solutions & Services</h2>
-                    <p className="font-normal text-base text-[#7f7f7f] mt-2">Building or migrating to
-                        complex data centers seems easy and convenient with the best data center solutions and services.
+                    <h2 className="font-semibold text-lg md:text-xl">{mapData.title}</h2>
+                    <p className="font-normal text-base text-[#7f7f7f] mt-2">{mapData.desc}
                     </p>
                 </div>
             </div>
